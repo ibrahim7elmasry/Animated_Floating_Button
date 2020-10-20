@@ -12,7 +12,8 @@ export default class FloatingButton extends Component {
 
         Animated.spring(this.animation,{
             toValue,
-            friction: 5
+            friction: 5,
+            useNativeDriver: false
         }).start()
         this.open = !this.open;
     };

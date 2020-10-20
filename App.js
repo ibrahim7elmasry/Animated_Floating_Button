@@ -16,7 +16,7 @@ const App: () => React$Node = () => {
    
        <SafeAreaView>
           <View style={{flex:1, alignItems:'center'}}>
-            <Image source={require('./assets/Images/map2.png')} resizeMode='cover' style={{ height: height, opacity:0.5}} />
+            <Image source={require('./assets/Images/map.jpg')} resizeMode='cover' style={{ height: height, opacity:0.5}} />
             <FloatingButton style={{top: height-150}}/>
           </View>
            
