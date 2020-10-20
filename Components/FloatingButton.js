@@ -133,17 +133,5 @@ const styles= StyleSheet.create({
             backgroundColor:'#FFF',
              
         },
-//         animat1:{
-// top:10,
-// elevation:2
-//         },
-//         animat2:{
-//             top:20,
-//             elevation:2
-//         },
-//         animat3:{
-//             top:30,
-//             elevation:2
-//         }
     }
 )
